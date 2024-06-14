@@ -1,4 +1,4 @@
-﻿namespace HomeworkWeek1;
+﻿namespace Homework1;
 
 class Program
 {
@@ -6,7 +6,8 @@ class Program
     {
         //Line to ask user to input a grade
     {
-      Console.WriteLine("Here is the first Homework Problem for Week 1");
+      Console.WriteLine("Here is the first Homework Problem for Week 1\n");
+      Console.WriteLine("The purpose of this problem is to assign a letter grade with the corresponding GPA number\n");
       Console.WriteLine("\nPlease input a letter grade: ");
     string user_grade = Console.ReadLine();
     	//convert string to char 
@@ -34,7 +35,8 @@ class Program
         }
     }
 
-      Console.WriteLine("Here is the beginning of Homework Problem 2\n ");
+      Console.WriteLine("\nHere is the beginning of Homework Problem 2\n ");
+      Console.WriteLine("The purpose of this program is to determine the lowest number input by the user out of three different numbers\n");
         Console.WriteLine("\nPlease input the first number: ");
       string n1 = Console.ReadLine();
       int num1 = Convert.ToInt16(n1);
@@ -74,8 +76,9 @@ class Program
  	not	except if it can be exactly divided by 100, then it isn't (such as 2100, 2200, etc)
  	 	yes	except if it can be exactly divided by 400, then it is (such as 2000, 2400) */
 
-    {  Console.WriteLine("Here is the beginning of the Bonus Homework Problem\n");
-      Console.WriteLine("\nPlease input a year: ");
+    {  Console.WriteLine("\nHere is the beginning of the Bonus Homework Problem\n");
+        Console.WriteLine("The purpose of this program is to determine if the year input by the user is a leap year\n");
+      Console.WriteLine("Please input a year: \n");
       string input_year = Console.ReadLine();
       int year = Convert.ToInt16(input_year);
 
